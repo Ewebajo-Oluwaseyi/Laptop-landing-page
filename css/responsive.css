@@ -16,6 +16,9 @@
   .home-section .home-img {
     margin-bottom: 40px;
   }
+  .home-section .home-img img {
+    right: 20px;
+  }
 }
 
 @media (max-width: 575px) {
