@@ -72,6 +72,7 @@ a {
   margin-bottom: 4px;
   border-radius: 100px;
   margin-left: auto;
+  margin-right: 1rem;
 }
 
 .header .navbar #navbarNav .nav-item .nav-link {

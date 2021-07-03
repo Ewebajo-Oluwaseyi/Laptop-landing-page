@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/theme/black.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+    <link rel="stylesheet" title="blue" class="alternate-theme" href="/css/theme/blue.css">
+    <link rel="stylesheet" title="aqua" class="alternate-theme" href="/css/theme/aqua.css">
+    <link rel="stylesheet" title="indigo" class="alternate-theme" href="/css/theme/indigo.css">
+    <link rel="stylesheet" title="black" class="alternate-theme" href="/css/theme/black.css">
 </head>
 <body>
     <div class="preloader">
@@ -52,6 +58,20 @@
                         </li>
                     </ul>
                 </div>
+                <div class="theme-switcher">
+                    <div class="theme-toggler">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <h5>Theme Switcher</h5>
+                    <ul class="list-unstyled">
+                        <li title="black" style="background-color: #222222;" onclick="setActiveTheme('black')"></li>
+                        <li title="black" style="background-color: #6400ae;" onclick="setActiveTheme('indigo')"></li>
+                        <li title="black" style="background-color: #05b3b6;" onclick="setActiveTheme('aqua')"></li>
+                        <li title="black" style="background-color: #4948d4;" onclick="setActiveTheme('blue')"></li>
+                    </ul>
+                </div>
+
+
             </nav>
         </div>
     </header>
@@ -427,10 +447,12 @@
         </div>
     </footer>
 
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 </html>

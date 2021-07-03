@@ -1,0 +1,34 @@
+.header,
+.btn2,
+.home-section,
+.features-section .features-item:hover,
+.section-title .title::before,
+.products-section .owl-carousel .owl-nav button.owl-next,
+.products-section .owl-carousel .owl-nav button.owl-prev,
+.testimonial-section::before,
+.footer {
+  background-color: #4948d4;
+}
+.features-section .features-item .icon i,
+.features-section .features-item h3,
+.features-section .features-item p,
+.footer .footer-social-links a:hover i,
+.products-section .products-item .product-content .product-price .new-price,
+.testimonial-section .client-info h5,
+.testimonial-section .owl-carousel .owl-nav button.owl-next,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev {
+  color: #4948d4;
+}
+
+.testimonial-section {
+  border-color: #4948d4;
+}
+.preloader .loader {
+  border-right: 5px solid #4948d4;
+}
+
+@media (max-width: 991x) {
+  .header .navbar #navbarNav .nav-item .nav-link {
+    color: #4948d4;
+  }
+}
